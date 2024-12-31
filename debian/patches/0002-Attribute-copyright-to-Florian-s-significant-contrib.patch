@@ -1,0 +1,31 @@
+From: Nicholas D Steeves <nsteeves@gmail.com>
+Date: Thu, 26 Jul 2018 22:27:40 -0400
+Forwarded: no
+Last-Update: 2018-07-27
+Subject: Attribute copyright to Florian's significant contributions.
+
+Florian Ragwitz added 1046 lines and removed 488 lines.  Total: 558
+
+Given that FSF considers more than 15 lines as legally significant,
+and given that the Bern Convention grants copyright upon fixation,
+Florian Ragwitz already possesses this.  This patch makes this fact
+visible.
+
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Copyright-Assignment.html
+
+---
+ pod-mode.el | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/pod-mode.el b/pod-mode.el
+index c9ac631..a62cd40 100644
+--- a/pod-mode.el
++++ b/pod-mode.el
+@@ -3,6 +3,7 @@
+ ;;; POD is the Plain Old Documentation format of Perl.
+ 
+ ;;; Copyright 2003-2010 Steffen Schwigon
++;;; Copyright 2010 Florian Ragwitz
+ 
+ ;;; Author: Steffen Schwigon <ss5@renormalist.net>
+ ;;;
