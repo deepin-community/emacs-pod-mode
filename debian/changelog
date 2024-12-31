@@ -1,5 +1,54 @@
-template-repository (1.0-1) unstable; urgency=medium
+emacs-pod-mode (1.03-6) unstable; urgency=medium
 
-  * Initial release
+  * Drop myself from Uploaders and orphan package.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Nicholas D Steeves <sten@debian.org>  Sat, 03 Aug 2024 17:39:53 -0400
+
+emacs-pod-mode (1.03-5) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild against dh-elpa 2.1.5.
+    Upload pushed to dgit-repos but not salsa.
+    See <https://lists.debian.org/debian-emacsen/2024/07/msg00077.html>.
+
+ -- Sean Whitton <spwhitton@spwhitton.name>  Thu, 25 Jul 2024 19:49:26 +0900
+
+emacs-pod-mode (1.03-4) unstable; urgency=medium
+
+  * Update my email address.
+
+ -- Nicholas D Steeves <sten@debian.org>  Tue, 07 Jun 2022 18:56:28 -0400
+
+emacs-pod-mode (1.03-3) unstable; urgency=medium
+
+  * Rebuild with dh-elpa 2.0.
+  * Migrate to debhelper-compat 13.
+  * Drop Enhances emacs25, because the package does not exist in bullseye.
+  * Capitalise "Emacs" in short description.
+  * Declare Standards-Version: 4.5.1 (no changes required).
+  * Set Rules-Requires-Root: no.
+
+ -- Nicholas D Steeves <nsteeves@gmail.com>  Fri, 27 Nov 2020 13:03:32 -0500
+
+emacs-pod-mode (1.03-2) unstable; urgency=medium
+
+  * Set Maintainer to Debian Emacsen team.
+  * 0002-Attribute-copyright-to-Florian-s-significant-contrib.patch:
+    - Typo fix.
+    - Enhance clarity in diff statistics line.
+  * Switch to debhelper-compat 11, and drop debian/compat.
+  * Declare Standards-Version: 4.3.0. (No changes needed)
+
+ -- Nicholas D Steeves <nsteeves@gmail.com>  Fri, 08 Feb 2019 23:32:56 -0700
+
+emacs-pod-mode (1.03-1) unstable; urgency=medium
+
+  [ Nicholas D Steeves ]
+  * Initial release. (Closes: #672180)
+
+  [ Sean Whitton ]
+  * Drop erroneous Reviewed-by: tag in
+    0002-Attribute-copyright-to-Florian-s-significant-contrib.patch.
+  * Add Comment: to copyright stanza for Files: *.
+
+ -- Sean Whitton <spwhitton@spwhitton.name>  Fri, 27 Jul 2018 12:24:33 +0800

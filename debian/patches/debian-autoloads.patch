@@ -1,0 +1,19 @@
+Description: autoload pod-mode when opening POD files
+ emacs-goodies-el autoloaded POD Mode, so we should continue to do this,
+ because a user could argue that it's a regression to no longer do so.
+Author: Nicholas D Steeves <nsteeves@gmail.com>
+Forwarded: no
+Last-Update: 2018-07-26
+
+--- emacs-pod-mode-1.03.orig/pod-mode.el
++++ emacs-pod-mode-1.03/pod-mode.el
+@@ -701,6 +701,9 @@ Turning on pod mode calls the hooks in `
+   (run-hooks 'pod-mode-hook)
+   (pod-add-support-for-weaver))
+ 
++;;;###autoload
++(add-to-list 'auto-mode-alist '("\\.pod\\'" . pod-mode))
++
+ (provide 'pod-mode)
+ 
+ ;;; pod-mode.el ends here
